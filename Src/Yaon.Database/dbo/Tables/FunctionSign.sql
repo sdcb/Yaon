@@ -1,4 +1,4 @@
-﻿CREATE TABLE [Function]
+﻿CREATE TABLE [FunctionSign]
 (
 	[Id] int NOT NULL PRIMARY KEY IDENTITY(1, 1), 
 	[QuestionId] int NOT NULL INDEX IX_Function_QuestionId, 

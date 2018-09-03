@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0c95ab0b-3710-4444-8318-7758774de919" ChangeDateTime="09/03/2018 01:27:10">
+    <Property Name="ElementName" Value="[dbo].[EvaluationMethod]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="EvalType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3a0455af-802d-4d1d-ba71-effc3bd6ead7" ChangeDateTime="09/03/2018 01:27:20">
+    <Property Name="ElementName" Value="[dbo].[Question].[EvaluationMethodId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EvalTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c990dacd-f6ab-4eea-8e4d-e50ccd0d313f" ChangeDateTime="09/03/2018 01:32:36">
+    <Property Name="ElementName" Value="[dbo].[FK_Question_EvaluationMethod]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Question]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="FK_Question_EvalType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="32c1036a-17a5-4614-8361-e7c0c7dd962b" ChangeDateTime="09/03/2018 01:34:06">
+    <Property Name="ElementName" Value="[dbo].[Function]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[dbo]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[FunctionSign]" />
+  </Operation>
+</Operations>
